@@ -11,7 +11,7 @@ build:
         packages: maven
     - script:
         name: maven build
-        code: mvn clean assembly:assembl
+        code: mvn -X clean assembly:assembl
         
 push-release:
   steps:
